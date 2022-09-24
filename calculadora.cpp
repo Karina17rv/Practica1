@@ -3,19 +3,19 @@ using namespace std;
 
 int  main()
 {
-        float KIRV_x,KIRV_y,KIRV_s,KIRV_r,KIRV_m,KIRV_d;
-        cout<< " Ingrese el valor de KIRV_x=: " ;
-        cin>>KIRV_x;
-        cout<< " Ingrese el valor de KIRV_y=: " ;
-        cin>>KIRV_y;
-        KIRV_s=KIRV_x+KIRV_y;
-        KIRV_r=KIRV_x-KIRV_y;
-        KIRV_m=KIRV_x*KIRV_y;
-        KIRV_d=KIRV_x/KIRV_y;
+        float x,y,s,r,m,d;
+        cout<< " Ingrese el valor de x=: " ;
+        cin>>x;
+        cout<< " Ingrese el valor de y=: " ;
+        cin>>y;
+        s=x+y;
+        r=x-y;
+        m=x*y;
+        d=x/y;
 
-        cout<< " El resultado de la suma " <<KIRV_x<< " + " <<KIRV_y<< " = " <<KIRV_s<<endl;
-        cout<< " El resultado de la resta " <<KIRV_x<< " - " <<KIRV_y<< " = " <<KIRV_r<<endl;
-        cout<< " El resultado de la multiplicación  " <<KIRV_x<< " * " <<KIRV_y<< " = " <<KIRV_m<<endl;
-        cout<< " El resultado de la división " <<KIRV_x<< " / " <<KIRV_y<< " = " <<KIRV_d<<endl;
+        cout<< " El resultado de la suma " <<x<< " + " <<y<< " = " <<s<<endl;
+        cout<< " El resultado de la resta " <<x<< " - " <<y<< " = " <<r<<endl;
+        cout<< " El resultado de la multiplicación  " <<x<< " * " <<y<< " = " <<m<<endl;
+        cout<< " El resultado de la división " <<x<< " / " <<y<< " = " <<d<<endl;
         return 0 ;
 }
