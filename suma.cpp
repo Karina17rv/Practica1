@@ -1,3 +1,4 @@
+//autor: KARINA ISABEL RENTERIA VALENCIA
 #include<iostream>
 using namespace std;
 int main ()
