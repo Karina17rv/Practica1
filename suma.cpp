@@ -1,13 +1,14 @@
+//autor: KARINA ISABEL RENTERIA VALENCIA
 #include<iostream>
 using namespace std;
 int main ()
 {
-	float x,y,z;
-cout<<"Ingrese 2 numeros separados de espacio x  y :";
-	cin>>x>>y;
-	z=x+y;
-	cout<<z;
+	float KIRV_x,KIRV_y,KIRV_z;
+cout<<"Ingrese 2 numeros separados de espacio KIRV_x  KIRV_y :";
+	cin>>KIRV_x>>KIRV_y;
+	KIRV_z=KIRV_x+KIRV_y;
+	cout<<KIRV_z;
 	cout<<"El resultado es :";
-	cout<<z<<endl;
+	cout<<KIRV_z<<endl;
 	return 0;
 }
