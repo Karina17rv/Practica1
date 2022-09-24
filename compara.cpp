@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-	float a,b;
-cout<<"ingrese a b:";
-	cin>>a>>b;
-	if(a>b)
+	float KIRV_a,KIRV_b;
+cout<<"ingrese KIRV_a  KIRV_b:";
+	cin>>KIRV_a>>KIRV_b;
+	if(KIRV_a>KIRV_b)
 	{
-		cout<<a<<" es mayor a "<<b<<endl;
+		cout<<KIRV_a<<" es mayor KIRV_a "<<KIRV_b<<endl;
 	}
 	else
 	{
-		cout<<b<<" es mayor a "<<a<<endl;
+		cout<<KIRV_b<<" es mayor KIRV_a "<<KIRV_a<<endl;
 	}
 	return 0;
 }
