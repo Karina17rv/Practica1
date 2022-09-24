@@ -1,18 +1,17 @@
-// autir:KARINA ISABEL RENTERIA VALENCIA
 #include<iostream>
 using namespace std;
 int main()
 {
-	float KIRV_a,KIRV_b;
-cout<<"ingrese KIRV_a  KIRV_b:";
-	cin>>KIRV_a>>KIRV_b;
-	if(KIRV_a>KIRV_b)
+	float a,b;
+cout<<"ingrese a  b:";
+	cin>>a>>b;
+	if(a>b)
 	{
-	cout<<KIRV_a<<" es mayor KIRV_a "<<KIRV_b<<endl;
+	cout<<a<<" es mayor a "<<b<<endl;
 	}
 	else
 	{
-	cout<<KIRV_b<<" es mayor KIRV_a "<<KIRV_a<<endl;
+	cout<<b<<" es mayor a "<<a<<endl;
 	}
 	return 0;
 }
