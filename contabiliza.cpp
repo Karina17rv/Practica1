@@ -1,19 +1,20 @@
+// autor:KARINA ISABEL RENTERIA VALENCIA
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l=";
-	cin>>l;
+	int KIRV_i=0,KIRV_l;
+	float KIRV_x,KIRV_s=0;
+	cout<<"ingrese el limite KIRV_l=";
+	cin>>KIRV_l;
 	{	
-	cout<<"ingrese el numero x="; 
-	cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero KIRV_x="; 
+	cin>>KIRV_x;
+	KIRV_i=KIRV_i+1;
+	KIRV_s=KIRV_s+KIRV_x;
 	}
-        while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+        while(KIRV_i<KIRV_l);
+	cout<<"Se ingresaron "<<KIRV_l<<" numeros "<< "que sumaron "<<KIRV_s<<endl;
 	return 0;
 }
